@@ -1,8 +1,4 @@
 # PPPoEHelper
-<<<<<<< HEAD
-# PPPoEHelper
-=======
-# PPPoEHelper
 
 This Python script automates the process of configuring, starting, and monitoring a PPPoE server. It parses the PPPoE server logs to extract and display user credentials (username and password).
 
