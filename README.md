@@ -30,20 +30,14 @@ Before running the script, ensure the following hardware setup:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/pppoe-helper.git
-cd pppoe-helper
+git clone https://github.com/SAMI3SS/PPPoEHelper.git
+cd PPPoEHelper
 ```
 
 2. Ensure the script has executable permissions:
 
 ```bash
 chmod +x pppoe.py
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Usage
