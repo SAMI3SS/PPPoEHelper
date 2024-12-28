@@ -17,12 +17,6 @@ This Python script automates the process of configuring, starting, and monitorin
 - Python 3.
 - PPPoE server package installed (automatically installed by the script if missing).
 
-To install additional Python dependencies, run:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Hardware Setup
 
 Before running the script, ensure the following hardware setup:
