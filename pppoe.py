@@ -11,7 +11,7 @@ class Colors:
     FAIL = '\033[91m'
     ENDC = '\033[0m'
     BOLD = '\033[1m'
-    DOTS = '\033[94m'  # Mavi renkli noktalar için
+    DOTS = '\033[94m'  
 
 
 def check_pppoe_server():
@@ -62,7 +62,7 @@ def wait_for_log_file(log_file):
     """
     print(f"{Colors.WARNING}Waiting for log file to be created at {log_file}...{Colors.WARNING}", end='', flush=True)
     while not os.path.exists(log_file):
-        print(f"{Colors.WARNING}.{Colors.ENDC}", end='', flush=True)  # Noktalar mavi renkte olacak
+        print(f"{Colors.WARNING}.{Colors.ENDC}", end='', flush=True)  
         time.sleep(1)
     print(f"\n{Colors.OKGREEN}Log file detected!{Colors.ENDC}")
 
